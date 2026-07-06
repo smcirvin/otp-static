@@ -28,7 +28,7 @@
 
   /* Gold — for marks and seals */
   --gold:       #b8893d;
-  --gold-soft:  #d4a85c;
+  --gold-soft:  #dab574;
 
   /* Type scale (clamp for fluid) */
   --t-display:  clamp(3.5rem, 7vw + 1rem, 7.5rem);
@@ -147,6 +147,15 @@ em, i { font-family: "Fraunces", serif; font-style: italic; font-variation-setti
   height: 1px;
   background: var(--rust-deep);
 }
+
+/* On-dark variant: used when an eyebrow sits on a dark (forest) section
+   background. Swaps the rust-deep dash/text color for gold-soft, which
+   is readable against forest. Apply as an added class (e.g.
+   class="eyebrow center on-dark") rather than inline styles/manual
+   spans, so it survives content.md re-syncs. */
+.eyebrow.on-dark { color: var(--gold-soft); }
+.eyebrow.on-dark::before { background: var(--gold-soft); }
+.eyebrow.on-dark.center::after { background: var(--gold-soft); }
 
 .section-num {
   font-family: "JetBrains Mono", monospace;
@@ -1319,7 +1328,7 @@ section.short { padding: var(--gap-md) 0; }
   font-family: "Fraunces", serif;
   font-size: 1.15rem;
   line-height: 1.4;
-  color: var(--ink-soft);
+  color: rgba(247,241,227,0.92);
   border-bottom: 1px dotted var(--rule);
   font-variation-settings: "SOFT" 40;
 }
