@@ -1494,59 +1494,24 @@ section.short { padding: var(--gap-md) 0; }
 }
 
 /* =========================================================
-   Calendly placeholder
+   Booking embed (Google Calendar appointment scheduling)
    ========================================================= */
 
 .calendly-frame {
   background: var(--paper-warm);
   border: 1px solid var(--rule-strong);
-  padding: clamp(2rem, 5vw, 4rem);
+  padding: clamp(1rem, 3vw, 2rem);
   text-align: center;
   position: relative;
+  margin-top: 2rem;
 }
 
-.calendly-frame::before {
-  content: "// CALENDLY EMBED //";
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  font-family: "JetBrains Mono", monospace;
-  font-size: var(--t-micro);
-  letter-spacing: 0.15em;
-  color: var(--ink-mute);
-}
-
-.calendly-mock {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 6px;
-  max-width: 500px;
+.calendly-frame iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-}
-
-.calendly-mock .day {
-  aspect-ratio: 1;
   background: var(--paper);
-  border: 1px solid var(--rule);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.85rem;
-  color: var(--ink-soft);
-}
-
-.calendly-mock .day.available {
-  background: var(--forest);
-  color: var(--paper);
-  border-color: var(--forest-deep);
-  cursor: pointer;
-}
-
-.calendly-mock .day.selected {
-  background: var(--rust);
-  color: var(--paper);
-  border-color: var(--rust-deep);
 }
 
 /* =========================================================
