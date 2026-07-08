@@ -254,31 +254,6 @@ section.short { padding: var(--gap-md) 0; }
   width: auto;
 }
 
-.brand-mark {
-  width: 36px;
-  height: 36px;
-  flex-shrink: 0;
-}
-
-.brand-name {
-  font-family: "Fraunces", serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 1;
-  font-variation-settings: "SOFT" 30;
-}
-
-.brand-tagline {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--rust-deep);
-  display: block;
-  margin-top: 3px;
-}
-
 .nav-links {
   display: flex;
   gap: clamp(1rem, 2vw, 2rem);
