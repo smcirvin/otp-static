@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 60" role="img" aria-label="OnTrack Planning — Financial coaching for real families">
+<g transform="translate(4,11.9) scale(0.441875)"><rect x="14" y="52" width="52" height="14" rx="7" fill="#1d4d3a"/>
+<rect x="21" y="35" width="40" height="13" rx="6.5" fill="#2d6249"/>
+<rect x="29" y="19" width="26" height="12" rx="6" fill="#b8492a"/>
+<circle cx="42" cy="11" r="4" fill="#b8893d"/></g>
+<text x="50" y="24.7" font-family="Fraunces, serif" font-weight="500"
+      font-size="21" fill="#181a16" letter-spacing="-0.2">OnTrack Planning</text>
+<text x="50" y="38.7" font-family="JetBrains Mono, monospace" font-weight="500"
+      font-size="10.6" fill="#8f3520" letter-spacing="1.75"><tspan x="50" dy="0">FINANCIAL COACHING</tspan><tspan x="50" dy="12">FOR REAL FAMILIES</tspan></text>
+</svg>
