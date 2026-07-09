@@ -540,6 +540,7 @@ section.short { padding: var(--gap-md) 0; }
 
 @media (min-width: 760px) {
   .steps.three { grid-template-columns: repeat(3, 1fr); }
+  .steps.four  { grid-template-columns: repeat(4, 1fr); }
   .steps.five  { grid-template-columns: repeat(5, 1fr); }
 }
 
