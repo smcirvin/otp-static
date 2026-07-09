@@ -516,7 +516,7 @@ section.short { padding: var(--gap-md) 0; }
 }
 
 .hero-card.note {
-  inset: 60% 0 0 30%;
+  inset: 74% 0 0 30%;
   background: var(--rust);
   color: var(--paper);
   transform: rotate(-3deg);
